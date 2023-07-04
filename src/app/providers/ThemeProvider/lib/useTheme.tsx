@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { LOCAL_STORAGE_THEME, Theme, ThemeContext } from "./themeContext";
-
+import { ThemeContext, LOCAL_STORAGE_THEME, Theme } from "./themeContext";
+ThemeContext
 interface useThemeProps {
     switchTheme:() => void,
     theme:Theme
